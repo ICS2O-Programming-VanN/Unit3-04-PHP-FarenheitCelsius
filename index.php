@@ -33,7 +33,7 @@
 				$celsius = floatval(5 / 9) * floatval($fahrenheit - 32); // Calculations for Fahrenheit to Celsius
         echo "<br><br><h4>With a temperature of " . $fahrenheit . "℉;</h4>";
 				echo "<h4>The temperature in celsius is " . round($celsius) . "℃</h4>"; // Outputs Celsius
-        echo "<h4>If you'd like a more specific number, the temperature in Celsius unrounded is: " . $celsius . "C°</h4>";
+        echo "<h4>If you'd like a more specific number, the temperature in Celsius unrounded is: " . $celsius . "°C</h4>"; // Outputs Celsius unrounded
 			}
 		?>
   </body>
