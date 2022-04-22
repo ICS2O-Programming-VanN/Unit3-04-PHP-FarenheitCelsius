@@ -23,7 +23,7 @@
 		?>
 		<!-- Text field and button (Takes Input) -->
 		<form method = "post">
-      Fahrenheit (℉): <input type="float" name="fahrenheit"> <br>
+      Fahrenheit (℉): <input type="number" step="any" name="fahrenheit"> <br>
 			<br><br>
 			<input type ="submit" name ="submit"  value="Convert">
 		<!-- Calculations for Fahrenheit to Celsius (With User Input) -->
